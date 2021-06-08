@@ -19,7 +19,19 @@ const rand = (length = 10, characters = alphanumericCharacters) => {
   return [...Array(length)].reduce((s) => s + characters[randomNumber(characters.length - 1)], '')
 }
 
-module.exports = {
+/**
+ * @typedef StringRandom
+ * @property {function(number=, string[]=): string} rand - generate random string
+ * @property {string[]} lowerCharacters
+ * @property {string[]} upperCharacters
+ * @property {string[]} numericCharacters
+ * @property {string[]} specialPrintableCharacters
+ * @property {string[]} urlSafeCharacters
+ * @property {string[]} distinguishableCharacters
+ * @property {string[]} asciiPrintableCharacters
+ * @property {string[]} alphanumericCharacters
+ */
+const StringRandom = {
   rand,
   lowerCharacters,
   upperCharacters,
@@ -30,3 +42,5 @@ module.exports = {
   asciiPrintableCharacters,
   alphanumericCharacters,
 }
+
+module.exports = StringRandom

@@ -16,6 +16,7 @@
     "eslint": "^7.28.0"
   },
   "files": [
-    "index.js"
+    "index.js",
+    "index.d.ts"
   ]
 }
