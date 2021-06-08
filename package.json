@@ -1,0 +1,21 @@
+{
+  "name": "@cylution/string-random",
+  "version": "1.0.0",
+  "description": "creating random id, slug, salt, password, ...",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "0x0a0d",
+  "license": "ISC",
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "@cylution/eslint-config-nodejs": "^1.0.3",
+    "eslint": "^7.28.0"
+  },
+  "files": [
+    "index.js"
+  ]
+}
