@@ -1,6 +1,6 @@
 {
   "name": "@cylution/string-random",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "creating random id, slug, salt, password, ...",
   "main": "index.js",
   "scripts": {
