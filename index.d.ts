@@ -1,5 +1,7 @@
 export = StringRandom;
-
+declare namespace StringRandom {
+  export { StringRandom };
+}
 type StringRandom = {
   /**
    * generate random string
