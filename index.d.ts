@@ -1,8 +1,4 @@
-export = StringRandom;
-declare namespace StringRandom {
-  export { StringRandom };
-}
-type StringRandom = {
+declare const StringRandom: {
   /**
    * generate random string
    */
@@ -16,3 +12,4 @@ type StringRandom = {
   asciiPrintableCharacters: string[];
   alphanumericCharacters: string[];
 };
+export default StringRandom;
